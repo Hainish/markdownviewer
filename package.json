@@ -1,0 +1,23 @@
+{
+  "author": "Hainish",
+  "name": "markdownviewer",
+  "description": "edit markdown in realtime",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hainish/markdownviewer.git"
+  },
+  "engines": {
+    "node": ">=0.8.9"
+  },
+  "dependencies": {
+    "express": ">=3.0.4",
+    "socket.io": ">=0.9.11",
+    "ejs": ">=0.8.3",
+    "underscore": ">=1.4.3"
+  },
+  "devDependencies": {
+    "mocha": "1.4.2"
+  },
+  "main" : "markdownviewer"
+}
