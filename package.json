@@ -14,7 +14,8 @@
     "express": ">=3.0.4",
     "socket.io": ">=0.9.11",
     "ejs": ">=0.8.3",
-    "underscore": ">=1.4.3"
+    "underscore": ">=1.4.3",
+    "pdc": ">=0.1.1"
   },
   "devDependencies": {
     "mocha": "1.4.2"
