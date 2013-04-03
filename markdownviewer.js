@@ -26,7 +26,7 @@ server.set('view engine', 'ejs');
 
 server.get('/', function(req, res){
   console.log(req.method+" request for / from "+req.connection.remoteAddress);
-  res.render('index', {socket_port: config.socket_port}); 
+  res.render(__dirname+'/views/index', {socket_port: config.socket_port}); 
 });
 
 server.listen(port);
