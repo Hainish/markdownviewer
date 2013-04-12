@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url('montserrat.woff') format('woff');
+}
+
+body {
+  background-color: #333333;
+  background-image: url('/images/grey_wash_wall.png');
+  padding: 10px;
+  font-family: Montserrat;
+}
+
+#wrapper {
+  color: #000000;
+  background-color: #ffffff;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 50px;
+  box-shadow: 0 0 20px #333;
+}
+
+pre {
+  background-color: #f0f0f0;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  overflow: auto;
+}
+
+a {
+  color: #000099;
+}
