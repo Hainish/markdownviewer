@@ -17,10 +17,7 @@ function print_usage(){
   console.log("Usage: ./markdownviewer MARKDOWN_FILE");
 }
 
-server.configure(function(){
-  server.use(server.router);
-  server.use(express.static(__dirname + '/public'));
-});
+server.use(express.static(__dirname + '/public'));
 
 server.set('view engine', 'ejs');
 
