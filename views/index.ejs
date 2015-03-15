@@ -4,7 +4,7 @@
     <script src="/js/lib/jquery-1.8.3.min.js"></script>
     <script src="/js/lib/socket.io.js"></script>
     <script>
-      var socket = io.connect('http://localhost:<%= socket_port %>');
+      var socket = io('http://localhost:<%= socket_port %>');
     </script>
     <script src="/js/ui-index.js"></script>
     <link href="/css/style.css" media="all" rel="stylesheet" type="text/css" />
